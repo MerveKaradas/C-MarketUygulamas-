@@ -1,2 +1,2 @@
-# C-MarketUygulamas-
+# C-MarketUygulamasi
 C programlama ile market uygulaması
