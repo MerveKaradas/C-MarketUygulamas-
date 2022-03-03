@@ -2,7 +2,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 	
-	//MerveKaradas-21181616028
 	int main() {
 	
 
@@ -31,7 +30,7 @@
 	
 		
 
-	while(secim==1) { //Ürün ve fiyat sorgulaması için yapılan döngü
+	while(secim==1) { //ÃœrÃ¼n ve fiyat sorgulamasÄ± iÃ§in yapÄ±lan dÃ¶ngÃ¼
 
 	    printf("---------------------------------------------------\n\n");
 	    printf("Hangi kategoriden urun sorgulamak istiyorsunuz?\n\n");
@@ -44,7 +43,7 @@
 	    scanf("%d", &secim1);
 	    printf("\n\n\n");
 	
-	    if ( secim1 == 1 ) { //Akıllı telefon fiyat sorgu
+	    if ( secim1 == 1 ) { //AkÄ±llÄ± telefon fiyat sorgu
           printf("***********************************\n\n");
           printf(" 1| Akilli telefon-1   1500.00 TL\n");
 		  printf(" 2| Akilli telefon-2   2750.00 TL\n");
@@ -59,17 +58,17 @@
 	      printf("\n\n");
 	      
 	      
-	    if( tercih== 2){ //Ana menüye dönmek için while(secim==1) döngüsünü kırar ve ana menüye döner.
+	    if( tercih== 2){ //Ana menÃ¼ye dÃ¶nmek iÃ§in while(secim==1) dÃ¶ngÃ¼sÃ¼nÃ¼ kÄ±rar ve ana menÃ¼ye dÃ¶ner.
 	      	break;  }
-	    else if(tercih==1) { //Başka ürünleri sorgulamak için içinde olduğu while(secim==1) döngüsüne döner.
+	    else if(tercih==1) { //BaÅŸka Ã¼rÃ¼nleri sorgulamak iÃ§in iÃ§inde olduÄŸu while(secim==1) dÃ¶ngÃ¼sÃ¼ne dÃ¶ner.
 	     	continue; }
-	    else {                                                                                 //Tanımlanan sayılar harici sayı girişinde tekrar yapılacak işlemleri
-	     	printf(" ! HATALI SAYI GIRISI-ANA MENUYE YONLENDIRILIYORSUNUZ.. ! \n");break;	 } // almak için break ile döngüyü kırarak ana menüye yönlendirir.
+	    else {                                                                                 //TanÄ±mlanan sayÄ±lar harici sayÄ± giriÅŸinde tekrar yapÄ±lacak iÅŸlemleri
+	     	printf(" ! HATALI SAYI GIRISI-ANA MENUYE YONLENDIRILIYORSUNUZ.. ! \n");break;	 } // almak iÃ§in break ile dÃ¶ngÃ¼yÃ¼ kÄ±rarak ana menÃ¼ye yÃ¶nlendirir.
 
 	  } // if(secim1==1) 'in parantezi
 		
 	
-	    else if( secim1 == 2) {//Akıllı saat fiyat sorgu
+	    else if( secim1 == 2) {//AkÄ±llÄ± saat fiyat sorgu
 	      printf("***********************************\n\n");
           printf(" 1| Akilli saat-1   543.99 TL\n");
 		  printf(" 2| Akilli saat-2   1324.50 TL\n");
@@ -81,19 +80,19 @@
 		  printf(" Yapmak istediginiz islem : ");
 	      scanf("%d", &tercih1);
 	      printf("\n\n");
-	        if( tercih1== 2){ //Ana menüye dönmek için while(secim==1) döngüsünü kırar ve ana menüye döner.
+	        if( tercih1== 2){ //Ana menÃ¼ye dÃ¶nmek iÃ§in while(secim==1) dÃ¶ngÃ¼sÃ¼nÃ¼ kÄ±rar ve ana menÃ¼ye dÃ¶ner.
 	        	break;  }
-	        else if(tercih1==1) { //Başka ürünleri sorgulamak için içinde olduğu while(secim==1) döngüsüne döner.
+	        else if(tercih1==1) { //BaÅŸka Ã¼rÃ¼nleri sorgulamak iÃ§in iÃ§inde olduÄŸu while(secim==1) dÃ¶ngÃ¼sÃ¼ne dÃ¶ner.
 	        	continue;}
-	        else {                                                                               //Tanımlanan sayılar harici sayı girişinde tekrar yapılacak işlemleri
-	     	printf(" ! HATALI SAYI GIRISI-ANA MENUYE YONLENDIRILIYORSUNUZ.. ! \n");break;	 }	 // almak için break ile döngüyü kırarak ana menüye yönlendirir.
+	        else {                                                                               //TanÄ±mlanan sayÄ±lar harici sayÄ± giriÅŸinde tekrar yapÄ±lacak iÅŸlemleri
+	     	printf(" ! HATALI SAYI GIRISI-ANA MENUYE YONLENDIRILIYORSUNUZ.. ! \n");break;	 }	 // almak iÃ§in break ile dÃ¶ngÃ¼yÃ¼ kÄ±rarak ana menÃ¼ye yÃ¶nlendirir.
 	        	
 	        	
 		}// else if(secim1==2)'in parantezi
 	      
 	      
 	      
-	   else if( secim1 == 3) {//Yazıcı fiyat sorgu
+	   else if( secim1 == 3) {//YazÄ±cÄ± fiyat sorgu
 	      printf("***********************************\n\n");
 	      printf(" 1| Yazici A   553.50 TL\n");
 	      printf(" 2| Yazici B   848.20 TL\n");
@@ -105,14 +104,14 @@
 		  printf(" Yapmak istediginiz islem : ");
 	      scanf("%d", &tercih2);
 	      printf("\n\n");
-	       if( tercih2== 2){ //Ana menüye dönmek için while(secim==1) döngüsünü kırar ve ana menüye döner.
+	       if( tercih2== 2){ //Ana menÃ¼ye dÃ¶nmek iÃ§in while(secim==1) dÃ¶ngÃ¼sÃ¼nÃ¼ kÄ±rar ve ana menÃ¼ye dÃ¶ner.
 	      	break; }
-	       else if(tercih2==1) { //Başka ürünleri sorgulamak için içinde olduğu while(secim==1) döngüsüne döner.
+	       else if(tercih2==1) { //BaÅŸka Ã¼rÃ¼nleri sorgulamak iÃ§in iÃ§inde olduÄŸu while(secim==1) dÃ¶ngÃ¼sÃ¼ne dÃ¶ner.
 	        continue;}
-	       else {                                                                               //Tanımlanan sayılar harici sayı girişinde tekrar yapılacak işlemleri
-	     	printf(" ! HATALI SAYI GIRISI-ANA MENUYE YONLENDIRILIYORSUNUZ.. ! \n");break;	 }  // almak için break ile döngüyü kırarak ana menüye yönlendirir.
+	       else {                                                                               //TanÄ±mlanan sayÄ±lar harici sayÄ± giriÅŸinde tekrar yapÄ±lacak iÅŸlemleri
+	     	printf(" ! HATALI SAYI GIRISI-ANA MENUYE YONLENDIRILIYORSUNUZ.. ! \n");break;	 }  // almak iÃ§in break ile dÃ¶ngÃ¼yÃ¼ kÄ±rarak ana menÃ¼ye yÃ¶nlendirir.
 	        
-		} //else if(secim1==3) 'ün parantezi
+		} //else if(secim1==3) 'Ã¼n parantezi
 		  
 	      
 	   else if(secim1 == 4) {//Bilgisayar fiyat sorgu
@@ -128,18 +127,18 @@
 		   printf(" Yapmak istediginiz islem : ");
 	      scanf("%d", &tercih3);
 	      printf("\n");
-	       if( tercih3== 2){ //Ana menüye dönmek için while(secim==1) döngüsünü kırar ve ana menüye döner.
+	       if( tercih3== 2){ //Ana menÃ¼ye dÃ¶nmek iÃ§in while(secim==1) dÃ¶ngÃ¼sÃ¼nÃ¼ kÄ±rar ve ana menÃ¼ye dÃ¶ner.
 	      	break; }
-	       else if(tercih3==1) { //Başka ürünleri sorgulamak için içinde olduğu while(secim==1) döngüsüne döner.
+	       else if(tercih3==1) { //BaÅŸka Ã¼rÃ¼nleri sorgulamak iÃ§in iÃ§inde olduÄŸu while(secim==1) dÃ¶ngÃ¼sÃ¼ne dÃ¶ner.
 	        continue;}
-	       else {                                                                              //Tanımlanan sayılar harici sayı girişinde tekrar yapılacak işlemleri
-	     	printf(" ! HATALI SAYI GIRISI-ANA MENUYE YONLENDIRILIYORSUNUZ.. ! \n");break;	 } // almak için break ile döngüyü kırarak ana menüye yönlendirir.
+	       else {                                                                              //TanÄ±mlanan sayÄ±lar harici sayÄ± giriÅŸinde tekrar yapÄ±lacak iÅŸlemleri
+	     	printf(" ! HATALI SAYI GIRISI-ANA MENUYE YONLENDIRILIYORSUNUZ.. ! \n");break;	 } // almak iÃ§in break ile dÃ¶ngÃ¼yÃ¼ kÄ±rarak ana menÃ¼ye yÃ¶nlendirir.
 	        
-		} // else if(secim1==4) 'ün parantezi
+		} // else if(secim1==4) 'Ã¼n parantezi
 		
 		
-		else{                                                                             //Ürün sorgulama ekranında hatalı giriş olduğunda ekrana hatalı girdiğini yazdırıp
-		    printf("! BILINMEYEN SAYI GIRISI-TEKRAR TANIMLANAN BIR SAYI GIRINIZ !\n");	} //tekrardan bir sayı verisi aldırır.
+		else{                                                                             //ÃœrÃ¼n sorgulama ekranÄ±nda hatalÄ± giriÅŸ olduÄŸunda ekrana hatalÄ± girdiÄŸini yazdÄ±rÄ±p
+		    printf("! BILINMEYEN SAYI GIRISI-TEKRAR TANIMLANAN BIR SAYI GIRINIZ !\n");	} //tekrardan bir sayÄ± verisi aldÄ±rÄ±r.
 	       
 	       
 	           } //while(secim==1)' in parantezi
@@ -147,7 +146,7 @@
 	
 
 	
-	    while(secim ==2) {  //Ürünleri sepete eklemek için yapılan döngü
+	    while(secim ==2) {  //ÃœrÃ¼nleri sepete eklemek iÃ§in yapÄ±lan dÃ¶ngÃ¼
 	           
 	    printf("---------------------------------------------------\n\n");
 	    printf("Hangi kategoriden urun eklemek istiyorsunuz?\n\n");
@@ -161,7 +160,7 @@
 	    printf("\n\n\n");
 	    
 	    
-	    if( secim2 == 1) { //Telefon kategorisinden sepete ürün eklenmek istendiğinde
+	    if( secim2 == 1) { //Telefon kategorisinden sepete Ã¼rÃ¼n eklenmek istendiÄŸinde
 	         printf("***********************************\n\n");
 	         printf("Akilli telefon kategorisinden hangisini sepete eklemek istersiniz ?\n");
              printf(" 1| Akilli telefon-1   1500.00 TL\n");
@@ -171,34 +170,34 @@
 	         printf("Seciminiz : ");
 	         scanf("%d", &sepettel1);
 	         
-	          if( sepettel1 ==1) { //Akıllı telefon-1 için
+	          if( sepettel1 ==1) { //AkÄ±llÄ± telefon-1 iÃ§in
 	          	sepettel = 1500.00; 
                 sepetsaat=0.00;
 	          	sepetpc=0.00;
 	          	sepetyazici=0.00;
 	          	guncel=0.00;
-	          	guncel = guncel +sepettel + sepetpc + sepetsaat + sepetyazici; //Seçilen ürünün fiyat değeri toplam değerinin içine atılır.
+	          	guncel = guncel +sepettel + sepetpc + sepetsaat + sepetyazici; //SeÃ§ilen Ã¼rÃ¼nÃ¼n fiyat deÄŸeri toplam deÄŸerinin iÃ§ine atÄ±lÄ±r.
 				printf("Toplam Sepet Tutariniz : %.2f TL\n\n", guncel);  } 
 				  
-	          else if( sepettel1 ==2) { //Akıllı telefon-2 için
+	          else if( sepettel1 ==2) { //AkÄ±llÄ± telefon-2 iÃ§in
 			    sepettel = 2750.00;
 			    sepetsaat=0.00;
 	          	sepetpc=0.00;
 	          	sepetyazici=0.00;
-			    guncel = guncel +sepettel + sepetpc + sepetsaat + sepetyazici; //Seçilen ürünün fiyat değeri toplam değerinin içine atılır.
+			    guncel = guncel +sepettel + sepetpc + sepetsaat + sepetyazici; //SeÃ§ilen Ã¼rÃ¼nÃ¼n fiyat deÄŸeri toplam deÄŸerinin iÃ§ine atÄ±lÄ±r.
 	          	printf("Toplam Sepet Tutariniz : %.2f TL\n\n", guncel); }
 				   
-	          else if( sepettel1 ==3)  { //Akıllı telefon-3 için
+	          else if( sepettel1 ==3)  { //AkÄ±llÄ± telefon-3 iÃ§in
 	          	sepettel = 8832.00; 
 	          	sepetsaat=0.00;
 	          	sepetpc=0.00;
 	          	sepetyazici=0.00;
-	          	guncel = guncel +sepettel + sepetpc + sepetsaat + sepetyazici; //Seçilen ürünün fiyat değeri toplam değerinin içine atılır.
+	          	guncel = guncel +sepettel + sepetpc + sepetsaat + sepetyazici; //SeÃ§ilen Ã¼rÃ¼nÃ¼n fiyat deÄŸeri toplam deÄŸerinin iÃ§ine atÄ±lÄ±r.
 				printf("Toplam Sepet Tutariniz : %.2f TL\n\n", guncel);	  }
 				
 			  else {  
 				printf("\n ! BILINMEYEN SAYI GIRISI-LUTFEN TANIMLANAN SAYILARDAN GIRIS YAPIN-ANA MENUYE YONLENDIRILIYORSUNUZ!\n\n"); break;	}
-				 //Telefon seçimi yaparken hatalı giriş sonucu hata bildirisi verip tekrardan doğru veri almak için ana menüye yönlendirilir.
+				 //Telefon seÃ§imi yaparken hatalÄ± giriÅŸ sonucu hata bildirisi verip tekrardan doÄŸru veri almak iÃ§in ana menÃ¼ye yÃ¶nlendirilir.
 			  
 			  
 	         printf(" 1-Sepete urun eklemeye devam edilsin mi?\n");
@@ -207,17 +206,17 @@
 	         scanf("%d", &tercih4);
 	         printf("\n\n");
 	         
-	            if( tercih4== 2){ //Ana menüye dönmek için while(secim==2) döngüsünü kırar ve ana menüye döner.
+	            if( tercih4== 2){ //Ana menÃ¼ye dÃ¶nmek iÃ§in while(secim==2) dÃ¶ngÃ¼sÃ¼nÃ¼ kÄ±rar ve ana menÃ¼ye dÃ¶ner.
 				            break;	 } 
-	            else if(tercih4==1) { //Başka ürünleri sepete eklemek için içinde olduğu while(secim==2) döngüsüne döner.
+	            else if(tercih4==1) { //BaÅŸka Ã¼rÃ¼nleri sepete eklemek iÃ§in iÃ§inde olduÄŸu while(secim==2) dÃ¶ngÃ¼sÃ¼ne dÃ¶ner.
 	          	            continue;}
-	            else {                                                                                //Tanımlanan sayılar harici sayı girişinde tekrar yapılacak işlemleri
-			         printf(" ! HATALI SAYI GIRISI-ANA MENUYE YONLENDIRILIYORSUNUZ.. ! \n");break;	} // almak için break ile döngüyü kırarak ana menüye yönlendirir.
+	            else {                                                                                //TanÄ±mlanan sayÄ±lar harici sayÄ± giriÅŸinde tekrar yapÄ±lacak iÅŸlemleri
+			         printf(" ! HATALI SAYI GIRISI-ANA MENUYE YONLENDIRILIYORSUNUZ.. ! \n");break;	} // almak iÃ§in break ile dÃ¶ngÃ¼yÃ¼ kÄ±rarak ana menÃ¼ye yÃ¶nlendirir.
 		        
 	         } //telefon kategorisi olan if(secim2 ==1)'in parantezi
 	     
 	    
-	      else if ( secim2 ==2 ) { //Akıllı saat kategorisinden sepete ürün eklenmek istendiğinde
+	      else if ( secim2 ==2 ) { //AkÄ±llÄ± saat kategorisinden sepete Ã¼rÃ¼n eklenmek istendiÄŸinde
 	    	 printf("***********************************\n\n");
 	         printf("Akilli saat kategorisinden hangisini sepete eklemek istersiniz ?\n");
 	         printf(" 1| Akilli saat-1   543.99 TL\n");
@@ -227,33 +226,33 @@
 		     printf("Seciminiz : ");
 	         scanf("%d", &sepetsaat1);
 	        
-	         if(sepetsaat1 == 1) { //Akıllı saat-1 için
+	         if(sepetsaat1 == 1) { //AkÄ±llÄ± saat-1 iÃ§in
 	         	sepettel=0.00;
 	         	sepetpc=0.00;
 	         	sepetyazici=0.00;
 	          	sepetsaat = 543.99; 
-	          	guncel = guncel +sepettel + sepetpc + sepetsaat + sepetyazici; //Seçilen ürünün fiyat değeri toplam değerinin içine atılır.
+	          	guncel = guncel +sepettel + sepetpc + sepetsaat + sepetyazici; //SeÃ§ilen Ã¼rÃ¼nÃ¼n fiyat deÄŸeri toplam deÄŸerinin iÃ§ine atÄ±lÄ±r.
 				printf("Toplam Sepet Tutariniz : %.2f TL\n\n", guncel);  } 
 				  
-	         else if( sepetsaat1==2) { //Akıllı saat-2 için
+	         else if( sepetsaat1==2) { //AkÄ±llÄ± saat-2 iÃ§in
 			    sepetsaat = 1324.50;
 			    sepettel=0.00;
 	            sepetpc=0.00;
 	         	sepetyazici=0.00;
-			    guncel = guncel +sepettel + sepetpc + sepetsaat + sepetyazici; //Seçilen ürünün fiyat değeri toplam değerinin içine atılır.
+			    guncel = guncel +sepettel + sepetpc + sepetsaat + sepetyazici; //SeÃ§ilen Ã¼rÃ¼nÃ¼n fiyat deÄŸeri toplam deÄŸerinin iÃ§ine atÄ±lÄ±r.
 	          	printf("Toplam Sepet Tutariniz : %.2f TL\n\n", guncel);}
 				   
-	          else if ( sepetsaat1 ==3) { //Akıllı saat-3 için
+	          else if ( sepetsaat1 ==3) { //AkÄ±llÄ± saat-3 iÃ§in
 	          	sepetsaat = 850.00; 
 	          	sepettel=0.00;
 	         	sepetpc=0.00;
 	         	sepetyazici=0.00;
-	          	guncel = guncel +sepettel + sepetpc + sepetsaat + sepetyazici; //Seçilen ürünün fiyat değeri toplam değerinin içine atılır.
+	          	guncel = guncel +sepettel + sepetpc + sepetsaat + sepetyazici; //SeÃ§ilen Ã¼rÃ¼nÃ¼n fiyat deÄŸeri toplam deÄŸerinin iÃ§ine atÄ±lÄ±r.
 				printf("Toplam Sepet Tutariniz : %.2f TL\n\n", guncel);	  }
 				
 		     else {
 			printf("\n ! BILINMEYEN SAYI GIRISI-LUTFEN TANIMLANAN SAYILARDAN GIRIS YAPIN-ANA MENUYE YONLENDIRILIYORSUNUZ!\n\n"); break;	}
-			//Akıllı saat seçimi yaparken hatalı giriş sonucu hata bildirisi verip tekrardan doğru veri almak için ana menüye yönlendirilir.
+			//AkÄ±llÄ± saat seÃ§imi yaparken hatalÄ± giriÅŸ sonucu hata bildirisi verip tekrardan doÄŸru veri almak iÃ§in ana menÃ¼ye yÃ¶nlendirilir.
 	         
 	         
 	         printf(" 1-Sepete urun eklemeye devam edilsin mi?\n");
@@ -261,17 +260,17 @@
 		     printf(" Yapmak istediginiz islem : ");
 	         scanf("%d", &tercih5);
 	         printf("\n\n");
-	            if( tercih5== 2){	//Ana menüye dönmek için while(secim==2) döngüsünü kırar ve ana menüye döner.
+	            if( tercih5== 2){	//Ana menÃ¼ye dÃ¶nmek iÃ§in while(secim==2) dÃ¶ngÃ¼sÃ¼nÃ¼ kÄ±rar ve ana menÃ¼ye dÃ¶ner.
 	                              break;}
-	            else if(tercih5==1){  //Başka ürünleri sepete eklemek için içinde olduğu while(secim==2) döngüsüne döner.
+	            else if(tercih5==1){  //BaÅŸka Ã¼rÃ¼nleri sepete eklemek iÃ§in iÃ§inde olduÄŸu while(secim==2) dÃ¶ngÃ¼sÃ¼ne dÃ¶ner.
 	        	                  continue;	} 
-	            else {                                                                                            //Tanımlanan sayılar harici sayı girişinde tekrar yapılacak işlemleri
-			    	printf("\n ! BILINMEYEN SAYI GIRISI-LUTFEN TANIMLANAN SAYILARDAN GIRIS YAPIN !\n\n");break;	} // almak için break ile döngüyü kırarak ana menüye yönlendirir.	
+	            else {                                                                                            //TanÄ±mlanan sayÄ±lar harici sayÄ± giriÅŸinde tekrar yapÄ±lacak iÅŸlemleri
+			    	printf("\n ! BILINMEYEN SAYI GIRISI-LUTFEN TANIMLANAN SAYILARDAN GIRIS YAPIN !\n\n");break;	} // almak iÃ§in break ile dÃ¶ngÃ¼yÃ¼ kÄ±rarak ana menÃ¼ye yÃ¶nlendirir.	
 			    	
-			} //akıllı saat kategorisi olan else if(secim2 ==2)'in parantezi
+			} //akÄ±llÄ± saat kategorisi olan else if(secim2 ==2)'in parantezi
 				
 	    
-	      else if( secim2 == 3 ) { //Yazıcı kategorisinden sepete ürün eklenmek istendiğinde
+	      else if( secim2 == 3 ) { //YazÄ±cÄ± kategorisinden sepete Ã¼rÃ¼n eklenmek istendiÄŸinde
 	       	printf("***********************************\n\n");
 	        printf("Yazici kategorisinden hangisini sepete eklemek istersiniz ?\n");
 	        printf(" 1| Yazici A   553.50 TL\n");
@@ -281,33 +280,33 @@
 		    printf("Seciminiz : ");
 	        scanf("%d", &sepetyazici1);
 	        
-	        if(sepetyazici1 == 1) { //Yazıcı A için
+	        if(sepetyazici1 == 1) { //YazÄ±cÄ± A iÃ§in
 	         	sepettel=0.00;
 	         	sepetpc=0.00;
 	         	sepetyazici=553.50;
 	          	sepetsaat = 0.00; 
-	          	guncel = guncel +sepettel + sepetpc + sepetsaat + sepetyazici; //Seçilen ürünün fiyat değeri toplam değerinin içine atılır.
+	          	guncel = guncel +sepettel + sepetpc + sepetsaat + sepetyazici; //SeÃ§ilen Ã¼rÃ¼nÃ¼n fiyat deÄŸeri toplam deÄŸerinin iÃ§ine atÄ±lÄ±r.
 				printf("Toplam Sepet Tutariniz : %.2f TL\n\n", guncel);  } 
 				  
-	        else if( sepetyazici1==2) { //Yazıcı B için
+	        else if( sepetyazici1==2) { //YazÄ±cÄ± B iÃ§in
 			    sepetsaat = 0.00;
 			    sepettel=0.00;
 	            sepetpc=0.00;
 	         	sepetyazici=848.20;
-			    guncel = guncel +sepettel + sepetpc + sepetsaat + sepetyazici; //Seçilen ürünün fiyat değeri toplam değerinin içine atılır.
+			    guncel = guncel +sepettel + sepetpc + sepetsaat + sepetyazici; //SeÃ§ilen Ã¼rÃ¼nÃ¼n fiyat deÄŸeri toplam deÄŸerinin iÃ§ine atÄ±lÄ±r.
 	          	printf("Toplam Sepet Tutariniz : %.2f TL\n\n", guncel);}
 				   
-	        else if( sepetyazici1 ==3) { //Yazıcı C için
+	        else if( sepetyazici1 ==3) { //YazÄ±cÄ± C iÃ§in
 	          	sepetsaat = 0.00; 
 	          	sepettel=0.00;
 	         	sepetpc=0.00;
 	         	sepetyazici=1433.33;
-	          	guncel = guncel +sepettel + sepetpc + sepetsaat + sepetyazici; //Seçilen ürünün fiyat değeri toplam değerinin içine atılır.
+	          	guncel = guncel +sepettel + sepetpc + sepetsaat + sepetyazici; //SeÃ§ilen Ã¼rÃ¼nÃ¼n fiyat deÄŸeri toplam deÄŸerinin iÃ§ine atÄ±lÄ±r.
 				printf("Toplam Sepet Tutariniz : %.2f TL\n\n", guncel);	  }
 				
 			else {
 				printf("\n ! BILINMEYEN SAYI GIRISI-LUTFEN TANIMLANAN SAYILARDAN GIRIS YAPIN-ANA MENUYE YONLENDIRILIYORSUNUZ!\n\n"); break;	}
-	           //Yazıcı seçimi yaparken hatalı giriş sonucu hata bildirisi verip tekrardan doğru veri almak için ana menüye yönlendirilir.
+	           //YazÄ±cÄ± seÃ§imi yaparken hatalÄ± giriÅŸ sonucu hata bildirisi verip tekrardan doÄŸru veri almak iÃ§in ana menÃ¼ye yÃ¶nlendirilir.
 	         
 	          
 	         
@@ -316,19 +315,19 @@
 		     printf(" Yapmak istediginiz islem : ");
 	         scanf("%d", &tercih6);
 	         printf("\n\n");
-	           if( tercih6== 2){ //Ana menüye dönmek için while(secim==2) döngüsünü kırar ve ana menüye döner.
+	           if( tercih6== 2){ //Ana menÃ¼ye dÃ¶nmek iÃ§in while(secim==2) dÃ¶ngÃ¼sÃ¼nÃ¼ kÄ±rar ve ana menÃ¼ye dÃ¶ner.
 	                    break; }
-	           else if(tercih6==1){  //Başka ürünleri sepete eklemek için içinde olduğu while(secim==2) döngüsüne döner.
+	           else if(tercih6==1){  //BaÅŸka Ã¼rÃ¼nleri sepete eklemek iÃ§in iÃ§inde olduÄŸu while(secim==2) dÃ¶ngÃ¼sÃ¼ne dÃ¶ner.
 	                    continue;	}
-	           else {                                                                                         //Tanımlanan sayılar harici sayı girişinde tekrar yapılacak işlemleri
-				printf("\n ! BILINMEYEN SAYI GIRISI-LUTFEN TANIMLANAN SAYILARDAN GIRIS YAPIN !\n\n");break;	} // almak için break ile döngüyü kırarak ana menüye yönlendirir.	
+	           else {                                                                                         //TanÄ±mlanan sayÄ±lar harici sayÄ± giriÅŸinde tekrar yapÄ±lacak iÅŸlemleri
+				printf("\n ! BILINMEYEN SAYI GIRISI-LUTFEN TANIMLANAN SAYILARDAN GIRIS YAPIN !\n\n");break;	} // almak iÃ§in break ile dÃ¶ngÃ¼yÃ¼ kÄ±rarak ana menÃ¼ye yÃ¶nlendirir.	
 			    	
 	           
-		} //yazıcı kategorisi olan else if(secim2 ==3)'ün parantezi
+		} //yazÄ±cÄ± kategorisi olan else if(secim2 ==3)'Ã¼n parantezi
 	    
 	    
 	    
-	     else if(secim2 ==4){ //Bilgisayar kategorisinden sepete ürün eklenmek istendiğinde
+	     else if(secim2 ==4){ //Bilgisayar kategorisinden sepete Ã¼rÃ¼n eklenmek istendiÄŸinde
 	    	printf("***********************************\n\n");
 	        printf("Bilgisayar kategorisinden hangisini sepete eklemek istersiniz ?\n");
 	        printf(" 1| Bilgisayar X   14600.00 TL\n");
@@ -339,70 +338,70 @@
 		    printf("Seciminiz : ");
 	        scanf("%d", &sepetpc1);
 	         
-	        if(sepetpc1 == 1) { //Bilgisayar X için
+	        if(sepetpc1 == 1) { //Bilgisayar X iÃ§in
 	         	sepettel=0.00;
 	         	sepetpc=14600.00;
 	         	sepetyazici=0.00;
 	          	sepetsaat = 0.00; 
-	          	guncel = guncel +sepettel + sepetpc + sepetsaat + sepetyazici; //Seçilen ürünün fiyat değeri toplam değerinin içine atılır.
+	          	guncel = guncel +sepettel + sepetpc + sepetsaat + sepetyazici; //SeÃ§ilen Ã¼rÃ¼nÃ¼n fiyat deÄŸeri toplam deÄŸerinin iÃ§ine atÄ±lÄ±r.
 				printf("Toplam Sepet Tutariniz : %.2f TL\n\n", guncel);  } 
 				  
-	        else if( sepetpc1==2) { //Bilgisayar Y için
+	        else if( sepetpc1==2) { //Bilgisayar Y iÃ§in
 			    sepetsaat = 0.00;
 			    sepettel=0.00;
 	            sepetpc=12964.00;
 	         	sepetyazici=0.00;
-			    guncel = guncel +sepettel + sepetpc + sepetsaat + sepetyazici; //Seçilen ürünün fiyat değeri toplam değerinin içine atılır.
+			    guncel = guncel +sepettel + sepetpc + sepetsaat + sepetyazici; //SeÃ§ilen Ã¼rÃ¼nÃ¼n fiyat deÄŸeri toplam deÄŸerinin iÃ§ine atÄ±lÄ±r.
 	          	printf("Toplam Sepet Tutariniz : %.2f TL\n\n", guncel);}
 	          	
-	        else if( sepetpc1==3) { //Bilgisayar Z için
+	        else if( sepetpc1==3) { //Bilgisayar Z iÃ§in
 			    sepetsaat = 0.00;
 			    sepettel=0.00;
 	            sepetpc=22920.00;
 	         	sepetyazici=0.00;
-			    guncel = guncel +sepettel + sepetpc + sepetsaat + sepetyazici; //Seçilen ürünün fiyat değeri toplam değerinin içine atılır.
+			    guncel = guncel +sepettel + sepetpc + sepetsaat + sepetyazici; //SeÃ§ilen Ã¼rÃ¼nÃ¼n fiyat deÄŸeri toplam deÄŸerinin iÃ§ine atÄ±lÄ±r.
 	          	printf("Toplam Sepet Tutariniz : %.2f TL\n\n", guncel);}	
 				   
-	        else if( sepetpc1==4) { //Bilgisayar Q için
+	        else if( sepetpc1==4) { //Bilgisayar Q iÃ§in
 	          	sepetsaat = 0.00; 
 	          	sepettel=0.00;
 	         	sepetpc=36123.00;
 	         	sepetyazici=0.00;
-	          	guncel = guncel +sepettel + sepetpc + sepetsaat + sepetyazici; //Seçilen ürünün fiyat değeri toplam değerinin içine atılır.
+	          	guncel = guncel +sepettel + sepetpc + sepetsaat + sepetyazici; //SeÃ§ilen Ã¼rÃ¼nÃ¼n fiyat deÄŸeri toplam deÄŸerinin iÃ§ine atÄ±lÄ±r.
 				printf("Toplam Sepet Tutariniz : %.2f TL\n\n", guncel);	  }
 				
 			else {
 				printf("\n ! BILINMEYEN SAYI GIRISI-LUTFEN TANIMLANAN SAYILARDAN GIRIS YAPIN-ANA MENUYE YONLENDIRILIYORSUNUZ!\n\n"); break;	}
-				//Bilgisayar seçimi yaparken hatalı giriş sonucu hata bildirisi verip tekrardan doğru veri almak için ana menüye yönlendirilir.
+				//Bilgisayar seÃ§imi yaparken hatalÄ± giriÅŸ sonucu hata bildirisi verip tekrardan doÄŸru veri almak iÃ§in ana menÃ¼ye yÃ¶nlendirilir.
 	         
 	         printf(" 1-Sepete urun eklemeye devam edilsin mi?\n");
 	         printf(" 2-Ana menuye don\n\n");
 		     printf(" Yapmak istediginiz islem : ");
 	         scanf("%d", &tercih7);
 	         printf("\n\n");
-	            if( tercih7== 2){	 //Ana menüye dönmek için while(secim==2) döngüsünü kırar ve ana menüye döner.
+	            if( tercih7== 2){	 //Ana menÃ¼ye dÃ¶nmek iÃ§in while(secim==2) dÃ¶ngÃ¼sÃ¼nÃ¼ kÄ±rar ve ana menÃ¼ye dÃ¶ner.
 	                        break; }
-	            else if(tercih7==1) { //Başka ürünleri sepete eklemek için içinde olduğu while(secim==2) döngüsüne döner.
+	            else if(tercih7==1) { //BaÅŸka Ã¼rÃ¼nleri sepete eklemek iÃ§in iÃ§inde olduÄŸu while(secim==2) dÃ¶ngÃ¼sÃ¼ne dÃ¶ner.
 	        	            continue;  }
-	            else {                                                                                             //Tanımlanan sayılar harici sayı girişinde tekrar yapılacak işlemleri
-			       	printf("\n ! BILINMEYEN SAYI GIRISI-LUTFEN TANIMLANAN SAYILARDAN GIRIS YAPIN !\n\n");break;	}  // almak için break ile döngüyü kırarak ana menüye yönlendirir.
+	            else {                                                                                             //TanÄ±mlanan sayÄ±lar harici sayÄ± giriÅŸinde tekrar yapÄ±lacak iÅŸlemleri
+			       	printf("\n ! BILINMEYEN SAYI GIRISI-LUTFEN TANIMLANAN SAYILARDAN GIRIS YAPIN !\n\n");break;	}  // almak iÃ§in break ile dÃ¶ngÃ¼yÃ¼ kÄ±rarak ana menÃ¼ye yÃ¶nlendirir.
 	   	
-	      }   //bilgisayar kategorisi olan else if(secim2 ==4)'ün parantezi
+	      }   //bilgisayar kategorisi olan else if(secim2 ==4)'Ã¼n parantezi
 	           
-	        else {                                                                                        //while(secim==2) döngüsünde tanımlanan değerler dışında bir veri girilirse
-			   printf("\n ! BILINMEYEN SAYI GIRISI-LUTFEN TANIMLANAN SAYILARDAN GIRIS YAPIN !\n\n");	} //else içine girerek tekrardan tanımlı bir değer girmesini söyler. Doğru değer
-	                                                                                                      //girene kadar döngü devam eder.
-	       } //ürünleri sepete eklemek için yapılan döngü olan while(secim ==2)'nin parantezi
+	        else {                                                                                        //while(secim==2) dÃ¶ngÃ¼sÃ¼nde tanÄ±mlanan deÄŸerler dÄ±ÅŸÄ±nda bir veri girilirse
+			   printf("\n ! BILINMEYEN SAYI GIRISI-LUTFEN TANIMLANAN SAYILARDAN GIRIS YAPIN !\n\n");	} //else iÃ§ine girerek tekrardan tanÄ±mlÄ± bir deÄŸer girmesini sÃ¶yler. DoÄŸru deÄŸer
+	                                                                                                      //girene kadar dÃ¶ngÃ¼ devam eder.
+	       } //Ã¼rÃ¼nleri sepete eklemek iÃ§in yapÄ±lan dÃ¶ngÃ¼ olan while(secim ==2)'nin parantezi
 	           
 	           
 	           
-	    while(secim==3) { // sipariş tamamlama ve tutarı göstermek için yapılan döngü
+	    while(secim==3) { // sipariÅŸ tamamlama ve tutarÄ± gÃ¶stermek iÃ§in yapÄ±lan dÃ¶ngÃ¼
 	       	
 	       	printf("\n\n");
 	    	printf("    SIPARIS TAMAMLAMA \n  ");
 	        printf("---------------------\n\n");
 	        
-	       	ucret = guncel; //Yukarıdaki seçilen ürünler guncel'in içine aktarılmıştı.Guncel değeri bu sefer toplam tutarımızı yansıtan ucrete atıyoruz.
+	       	ucret = guncel; //YukarÄ±daki seÃ§ilen Ã¼rÃ¼nler guncel'in iÃ§ine aktarÄ±lmÄ±ÅŸtÄ±.Guncel deÄŸeri bu sefer toplam tutarÄ±mÄ±zÄ± yansÄ±tan ucrete atÄ±yoruz.
 	            
 	        printf(" Toplam sepet tutariniz : %.2f TL\n\n ", ucret);
 	        printf("-------------------------------------\n");
@@ -412,27 +411,27 @@
 	        scanf("%d", &don);
 	        printf("\n\n");
 	         
-	            if( don== 1){	//Ana menüye dönmek için içinde bulunduğu while(secim==3) döngüsünü kırar
+	            if( don== 1){	//Ana menÃ¼ye dÃ¶nmek iÃ§in iÃ§inde bulunduÄŸu while(secim==3) dÃ¶ngÃ¼sÃ¼nÃ¼ kÄ±rar
 	                    break;  }  
 	            else {
 				    printf("\n ! BILINMEYEN SAYI GIRISI-LUTFEN TANIMLANAN SAYILARDAN GIRIS YAPIN !\n\n");	}
-				    //Hatalı değer girdiğinde ekrana bastırılır ve doğru değer girilene kadar bu döngü devam eder.
+				    //HatalÄ± deÄŸer girdiÄŸinde ekrana bastÄ±rÄ±lÄ±r ve doÄŸru deÄŸer girilene kadar bu dÃ¶ngÃ¼ devam eder.
 				    
-		} //while(secim==3)'ün parantezi [sepet tutarı]
+		} //while(secim==3)'Ã¼n parantezi [sepet tutarÄ±]
 	           
 	           
-	       if(secim==4) { //Program sonlandırma
+	       if(secim==4) { //Program sonlandÄ±rma
 	       	printf("\n\n");
 	        printf("--------------------------------\n\n\n");
 	        printf(" Iyi Gunler Dileriz :)\n");
 	        printf(" Program sonlandiriliyor...");
-	        printf("\n\n"); break; // while(1) döngüsünü kırmak için
+	        printf("\n\n"); break; // while(1) dÃ¶ngÃ¼sÃ¼nÃ¼ kÄ±rmak iÃ§in
 			}    
 		   
 		   
-		   //Ana menüde tanımlanan değer harici sayı girişi olduğunda ekrana yansıtılır.Tekrardan Ana menüye while(1) döngüsünün içine girerek yeniden seçim istenir.
-		   else if(secim !=1 && secim !=2 && secim !=3 && secim !=4){                                    //else koyunca while (secim==3) döngüden çıkarak else için giriyor
-		   printf("\n ! BILINMEYEN SAYI GIRISI-LUTFEN TANIMLANAN SAYILARDAN GIRIS YAPIN !\n\n");	  }  //o yüzden else if ile teker teker yazdım
+		   //Ana menÃ¼de tanÄ±mlanan deÄŸer harici sayÄ± giriÅŸi olduÄŸunda ekrana yansÄ±tÄ±lÄ±r.Tekrardan Ana menÃ¼ye while(1) dÃ¶ngÃ¼sÃ¼nÃ¼n iÃ§ine girerek yeniden seÃ§im istenir.
+		   else if(secim !=1 && secim !=2 && secim !=3 && secim !=4){                                    //else koyunca while (secim==3) dÃ¶ngÃ¼den Ã§Ä±karak else iÃ§in giriyor
+		   printf("\n ! BILINMEYEN SAYI GIRISI-LUTFEN TANIMLANAN SAYILARDAN GIRIS YAPIN !\n\n");	  }  //o yÃ¼zden else if ile teker teker yazdÄ±m
 			 
 	       
 	       } // while(1)'in parantezi
